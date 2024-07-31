@@ -1,46 +1,114 @@
-# Getting Started with Create React App
+<p align="center">
+   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzh0eGg0cWxuNnBoa3pzbmI1Mml2d3hldmE1NmwyZXJqaHJqcnpwcyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/mujg7UQ24jsk1mY840/giphy.gif" alt="imobiliária" width="500"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Dream Home Awaits</h1>
 
-## Available Scripts
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/agostinhomarcia/imobiliaria?color=334598">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/agostinhomarcia/imobiliaria?color=334598">
+  <img alt="License" src="https://img.shields.io/github/license/agostinhomarcia/imobiliaria?color=334598">
+  <img alt="Github issues" src="https://img.shields.io/github/issues/agostinhomarcia/imobiliaria?color=334598">
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#about">About</a> &#xa0; | &#xa0; 
+  <a href="#features">Features</a> &#xa0; | &#xa0;
+  <a href="#technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#project-structure">Project Structure</a> &#xa0; | &#xa0;
+  <a href="#contributing">Contributing</a> &#xa0; | &#xa0;
+  <a href="#license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/seu-usuario" target="_blank">Author</a>
+</p>
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <img src="/public/intro.gif" alt="intro" />
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center">
+  <img src="/public/reserve.gif" alt="reserve" />
+</p>
 
-### `npm test`
+## About
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Imobiliária React é uma aplicação completa de listagem de imóveis, desenvolvida com React e TypeScript para o front-end, e Node.js com Express para o back-end. O banco de dados utilizado é o MongoDB.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Listagem de imóveis com animações suaves ao rolar a página.
+- Página de detalhes dos imóveis com informações adicionais.
+- Integração com back-end para busca de dados dinâmicos.
+- Páginas de contato e sobre a imobiliária.
+- Animações usando Intersection Observer API.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Front-end**: React, TypeScript, Styled-components
+- **Back-end**: Node.js, Express, MongoDB
+- **Gerenciamento de Estado**: Context API (opcional)
+- **Estilo**: Styled-components
+- **Animações**: Intersection Observer API
 
-### `npm run eject`
+## Requirements
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Node.js v14 ou superior
+- npm ou yarn
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Starting
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Clonando o Repositório
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+git clone https://github.com/agostinhomarcia/imobiliaria.git
+cd imobiliaria
+```
 
-## Learn More
+```
+real-estate-frontend/
+│
+├── src/
+│   ├── components/
+│   │   ├── ListingCard.tsx
+│   ├── hooks/
+│   │   └── useIntersectionObserver.ts
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── Listings.tsx
+│   │   ├── Contact.tsx
+│   │   ├── About.tsx
+│   │   └── PropertyDetails.tsx
+│   ├── App.tsx
+│   └── index.tsx
+├── public/
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Contribuições
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
+
+Faça um fork do projeto.
+Crie uma nova branch com as suas alterações: `git checkout -b` nome da sua branch.
+
+Faça commit das suas alterações: `git commit -m 'Minha nova funcionalidade' `.
+
+Faça push para a sua branch: `git push origin sua branch `.
+Abra um Pull Request.
+License
+
+This project is under the [MIT license](./License).
+
+Made with love by [Márcia Agostinho](https://github.com/agostinhomarcia) 🚀.
+
+<p align="center">
+   <img src="https://media.giphy.com/media/cP6REpq2OvhLajI0RY/giphy.gif?cid=790b7611aq1ucvqis9cgw3sqw2q35r8u0hom4wee3p51s68w&ep=v1_stickers_search&rid=giphy.gif&ct=s" alt="imobiliária" width="350"/>
+</p>
+ 
+
+<a href="#top">Back to top </a>
