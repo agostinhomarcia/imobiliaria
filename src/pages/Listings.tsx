@@ -50,6 +50,29 @@ const listingsData = [
     title: 'Mountain Cabin',
     description: 'A cozy mountain cabin with 3 bedrooms, 2 bathrooms, and a fireplace.',
     imageUrl: 'https://img.freepik.com/fotos-gratis/belo-resort-de-hotel-em-frente-a-praia-tropical-com-piscina-paradisiaca-para-ferias-ge_1258-150767.jpg?uid=R58516977&ga=GA1.1.6015626.1721063839&semt=ais_hybrid',
+  },{
+    id: 7,
+    title: 'Beachfront Bungalow',
+    description: 'A charming bungalow with direct access to the beach, featuring 2 bedrooms and 2 bathrooms.',
+    imageUrl: 'https://img.freepik.com/fotos-premium/uma-varanda-com-paredes-brancas-moveis-bege-e-quadros-metalicos-pretos_1182315-863.jpg?uid=R58516977&ga=GA1.1.6015626.1721063839&semt=ais_hybrid',
+  },
+  {
+    id: 8,
+    title: 'Country Estate',
+    description: 'A spacious country estate with 6 bedrooms, 5 bathrooms, and large grounds.',
+    imageUrl: 'https://img.freepik.com/fotos-gratis/plantacao-verde-campo-paisagem-arquitetura-de-construcao_1417-2288.jpg?uid=R58516977&ga=GA1.1.6015626.1721063839&semt=ais_hybrid',
+  },
+  {
+    id: 9,
+    title: 'Penthouse Suite',
+    description: 'A luxurious penthouse suite with stunning city views, featuring 3 bedrooms and 3 bathrooms.',
+    imageUrl: 'https://img.freepik.com/fotos-gratis/interior-do-design-do-fotografo_1359-342.jpg?uid=R58516977&ga=GA1.1.6015626.1721063839&semt=ais_hybrid',
+  },
+  {
+    id: 10,
+    title: 'Rustic Barn House',
+    description: 'A rustic barn house converted into a charming home with 4 bedrooms and 3 bathrooms.',
+    imageUrl: 'https://img.freepik.com/fotos-premium/uma-cidade-com-muitos-edificios-e-um-ceu-que-tem-nuvens_1204495-13883.jpg?uid=R58516977&ga=GA1.1.6015626.1721063839&semt=ais_hybrid',
   },
 ];
 
