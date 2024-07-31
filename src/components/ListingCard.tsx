@@ -10,6 +10,16 @@ const fadeIn = keyframes`
     opacity: 2;
   }
 `;
+const slideIn = keyframes`
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`;
 
 const Card = styled.div<{ isVisible: boolean }>`
   border: 1px solid #ccc;
@@ -22,7 +32,12 @@ const Card = styled.div<{ isVisible: boolean }>`
   align-items: center;
   opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
   transition: opacity 0.5s ease-out;
-  animation: ${({ isVisible }) => (isVisible ? fadeIn : 'none')} 0.5s ease-out forwards;
+  animation: ${({ isVisible }) => (isVisible ? slideIn : 'none')} 0.5s ease-out forwards;
+
+    &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
 `;
 
 const Image = styled.img`

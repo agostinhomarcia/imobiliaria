@@ -4,6 +4,7 @@ import ListingCard from '../components/ListingCard';
 
 const ListingsContainer = styled.div`
   padding: 2rem;
+
 `;
 
 const ListingTitle = styled.h2`

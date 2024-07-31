@@ -1,12 +1,43 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css, keyframes } from "styled-components";
+import useIntersectionObserver from "../hooks/useIntersectionObserver";
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
+
+const slideIn = keyframes`
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`;
 
 const AboutContainer = styled.div`
   padding: 2rem;
 `;
 
-const Section = styled.section`
+const Section = styled.section<{ isVisible: boolean }>`
   margin: 2rem 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  ${({ isVisible }) =>
+    isVisible &&
+    css`
+      opacity: 1;
+      transform: translateY(0);
+      animation: ${fadeIn} 0.5s ease-out, ${slideIn} 0.5s ease-out;
+    `}
 `;
 
 const Title = styled.h1`
@@ -60,11 +91,16 @@ const MemberRole = styled.p`
 `;
 
 const About: React.FC = () => {
+  const [historyRef, isHistoryVisible] = useIntersectionObserver({ threshold: 0.1 });
+  const [valuesRef, isValuesVisible] = useIntersectionObserver({ threshold: 0.1 });
+  const [teamRef, isTeamVisible] = useIntersectionObserver({ threshold: 0.1 });
+  const [contactRef, isContactVisible] = useIntersectionObserver({ threshold: 0.1 });
+
   return (
     <AboutContainer>
       <Title>About Us</Title>
 
-      <Section>
+      <Section ref={historyRef} isVisible={isHistoryVisible}>
         <SubTitle>Our History</SubTitle>
         <Text>
           Founded in 1990, House of Dreams Realty has been dedicated to helping
@@ -75,7 +111,7 @@ const About: React.FC = () => {
         </Text>
       </Section>
 
-      <Section>
+      <Section ref={valuesRef} isVisible={isValuesVisible}>
         <SubTitle>Our Values</SubTitle>
         <Text>
           At House of Dreams, we believe in putting our clients first. Our
@@ -94,7 +130,7 @@ const About: React.FC = () => {
         </Text>
       </Section>
 
-      <Section>
+      <Section ref={teamRef} isVisible={isTeamVisible}>
         <SubTitle>Meet the Team</SubTitle>
         <TeamGrid>
           <TeamMember>
@@ -137,7 +173,7 @@ const About: React.FC = () => {
         </TeamGrid>
       </Section>
 
-      <Section>
+      <Section ref={contactRef} isVisible={isContactVisible}>
         <SubTitle>Contact Us</SubTitle>
         <Text>
           Have any questions? We'd love to hear from you!
