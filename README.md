@@ -2,7 +2,7 @@
    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzh0eGg0cWxuNnBoa3pzbmI1Mml2d3hldmE1NmwyZXJqaHJqcnpwcyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/mujg7UQ24jsk1mY840/giphy.gif" alt="imobiliária" width="500"/>
 </p>
 
-<h1 align="center">Dream Home Awaits</h1>
+<h1 align="center">House of Dreams</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/agostinhomarcia/imobiliaria?color=334598">
@@ -35,7 +35,7 @@
 
 ## About
 
-Imobiliária React é uma aplicação completa de listagem de imóveis, desenvolvida com React e TypeScript para o front-end, e Node.js com Express para o back-end. O banco de dados utilizado é o MongoDB.
+Imobiliária House of Dreams é uma aplicação completa de listagem de imóveis, desenvolvida com React e TypeScript para o front-end, e Node.js com Express para o back-end.
 
 ## Features
 
@@ -48,7 +48,7 @@ Imobiliária React é uma aplicação completa de listagem de imóveis, desenvol
 ## Technologies
 
 - **Front-end**: React, TypeScript, Styled-components
-- **Back-end**: Node.js, Express, MongoDB
+- **Back-end**: Node.js, Express.
 - **Gerenciamento de Estado**: Context API (opcional)
 - **Estilo**: Styled-components
 - **Animações**: Intersection Observer API
@@ -60,7 +60,7 @@ Imobiliária React é uma aplicação completa de listagem de imóveis, desenvol
 
 ## Starting
 
-### Clonando o Repositório
+## Clonando o Repositório
 
 ```bash
 git clone https://github.com/agostinhomarcia/imobiliaria.git
@@ -68,7 +68,7 @@ cd imobiliaria
 ```
 
 ```
-real-estate-frontend/
+imobiliaria/
 │
 ├── src/
 │   ├── components/
@@ -89,7 +89,7 @@ real-estate-frontend/
 └── README.md
 ```
 
-#### Contribuições
+### Contribuições
 
 Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
 

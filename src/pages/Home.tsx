@@ -175,7 +175,7 @@ const Home: React.FC = () => {
   return (
     <HomeContainer>
       <HeroSection ref={heroRef} isVisible={isHeroVisible}>
-        <HeroText>Your Dream Home Awaits</HeroText>
+        <HeroText>House of Dreams</HeroText>
         <HeroSubText>Find the perfect property with us.</HeroSubText>
         <CTAButton to="/listings">View Listings</CTAButton>
       </HeroSection>

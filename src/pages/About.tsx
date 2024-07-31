@@ -67,8 +67,8 @@ const About: React.FC = () => {
       <Section>
         <SubTitle>Our History</SubTitle>
         <Text>
-          Founded in 1990, Dream Home Realty has been dedicated to helping
-          individuals and families find their dream homes for over 30 years.
+          Founded in 1990, House of Dreams Realty has been dedicated to helping
+          individuals and families find their House of Dreams for over 30 years.
           What started as a small family business has grown into one of the most
           trusted real estate agencies in the country. We pride ourselves on our
           local expertise and our commitment to customer satisfaction.
@@ -78,7 +78,7 @@ const About: React.FC = () => {
       <Section>
         <SubTitle>Our Values</SubTitle>
         <Text>
-          At Dream Home Realty, we believe in putting our clients first. Our
+          At House of Dreams, we believe in putting our clients first. Our
           values are built on:
           <ul>
             <li>
@@ -143,7 +143,7 @@ const About: React.FC = () => {
           Have any questions? We'd love to hear from you!
           <br />
           <br />
-          <strong>Email:</strong> contact@dreamhomerealty.com
+          <strong>Email:</strong> contact@dreamhomerealty.com 
           <br />
           <strong>Phone:</strong> (123) 456-7890
           <br />
