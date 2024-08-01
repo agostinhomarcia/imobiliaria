@@ -20,7 +20,7 @@
   <a href="#project-structure">Project Structure</a> &#xa0; | &#xa0;
   <a href="#contributing">Contributing</a> &#xa0; | &#xa0;
   <a href="#license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/seu-usuario" target="_blank">Author</a>
+  <a href="https://github.com/agostinhomarcia" target="_blank">Author</a>
 </p>
 
 <br>
