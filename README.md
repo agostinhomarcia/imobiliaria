@@ -26,11 +26,20 @@
 <br>
 
 <p align="center">
-  <img src="/public/intro.gif" alt="intro" />
+  <img src="./public/home.png" alt="intro" />
 </p>
 
 <p align="center">
-  <img src="/public/reserve.gif" alt="reserve" />
+  <img src="./public/home2.png" alt="reserve" />
+</p>
+<p align="center">
+  <img src="./public/about1.png" alt="reserve" />
+</p>
+<p align="center">
+  <img src="./public/about2.png" alt="reserve" />
+</p>
+<p align="center">
+  <img src="./public/contact.png" alt="reserve" />
 </p>
 
 ## About
