@@ -66,6 +66,11 @@ const Feature = styled.div`
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #f9f9f9;
+
+  @media (max-width: 768px) {
+    width: 80%;
+    margin: 1rem 0;
+  }
 `;
 
 const FeatureTitle = styled.h2`
@@ -123,6 +128,11 @@ const ListingCard = styled.div`
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
+
+  @media (max-width: 768px) {
+    width: 80%;
+    margin: 1rem 0;
+  }
 `;
 
 const ListingImage = styled.img`
@@ -163,7 +173,6 @@ const ListingButton = styled(Link)`
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: inherit;
-
 `;
 
 const Home: React.FC = () => {
